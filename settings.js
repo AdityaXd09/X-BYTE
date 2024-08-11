@@ -20,9 +20,9 @@ function convertToBool(text, fault = 'true') {
 
 global.thumb = fs.readFileSync('./lib/bugs/XByte.png') //Don't change
 //////////////////////////////////////////////////////////
-const BOTNAME = 'X - hacker'; //BOT name
+const BOTNAME = '[ !! 𝐄ʟɪsᴀ 𝐐ᴜᴇᴇɴ !! ]'; //BOT name
 //////////////////////////////////////////////////////////
-const FOOTERNAME = '*Powered by prince*'; //Footer text
+const FOOTERNAME = '—͟͞͞★ 𝐂ʏʙᴇʀ 𝐐ᴜᴇᴇɴ ★'; //Footer text
 
 
 
@@ -37,7 +37,7 @@ const FOOTERNAME = '*Powered by prince*'; //Footer text
 //----------------OWNER NUMBER------------------------------//
 //////////////////////////////////////////////////////////////////
 
-global.owner = process.env.OWNER_NUMBER  || '923168598809' ;  //put your number without +
+global.owner = process.env.OWNER_NUMBER  || '917318812338' ;  //put your number without +
 
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
@@ -75,7 +75,7 @@ SESSION_ID: process.env.SESSION_ID || 'Byte;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7In
 
 //----------------BOT LOGO------------------------------//
 //////////////////////////////////////////////////////////////////
-LOGO: process.env.LOGO || `https://telegra.ph/file/4dc85a29bee9f0fd24c71.jpg` , //BOT logo
+LOGO: process.env.LOGO || `https://telegra.ph/file/607246b9ae1831c46cbb7.jpg` , //BOT logo
 /////////////////////////////////////////////////////////////////
 //-------------------------------------------------------//
 
@@ -98,19 +98,19 @@ travaSend: process.env.TRAVA_SEND || '25' ,   //BUGS
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' , //button or nonbutton
 //////////////////////////////////////////////////////////
 
-MODERATORS : process.env.MODERATORS === undefined ? "923072380380" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "917318812338" : process.env.MODERATORS ,    
 //////////////////////////////////////////////////////////
 
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE, //Maximum size that bot can download a file   
 //////////////////////////////////////////////////////////
 
-OWNER_NAME: process.env.OWNER_NAME || 'prince' , //Your name
+OWNER_NAME: process.env.OWNER_NAME || '⎯꯭̽👀🐼𝐀ᴅɪᴛʏᴀ-𝐗ᴅ💗🌸𓂃' , //Your name
 //////////////////////////////////////////////////////////
 
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9' : process.env.POSTGRESQL_URL,
 //////////////////////////////////////////////////////////
 
-FOOTER: process.env.FOOTER || '*Powered by prince*',    
+FOOTER: process.env.FOOTER || '—͟͞͞★ 𝐂ʏʙᴇʀ 𝐐ᴜᴇᴇɴ ★',    
 //////////////////////////////////////////////////////////
 
 ANTI_BAD: process.env.ANTI_BAD || false  ,  //true or false
